@@ -26,10 +26,10 @@ h1 {
 }
 
 .cards__item {
-  display: flex;
+  /* display: flex;
   flex: 1;
   margin: 0 1rem;
-  border-radius: 10px;
+  border-radius: 10px; */
 }
 
 .cards__item__link {
