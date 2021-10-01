@@ -1,6 +1,7 @@
-import React, { useState } from "react";
+// import React, { useState } from "react";
+import React from "react";
 import CardItem from "./CardItem";
-import items from "../helpers/CardList";
+// import items from "../helpers/CardList";
 import "../styles/Card.css";
 import image2 from "../images/img-2.jpg";
 import image3 from "../images/img-3.jpg";
@@ -9,7 +10,7 @@ import image8 from "../images/img-8.jpg";
 import image9 from "../images/img-9.jpg";
 
 function Card() {
-  const [cardList] = useState(items);
+  // const [cardList] = useState(items);
   return (
     <div className="cards">
       <h1>Check out these EPIC Destinations</h1>
